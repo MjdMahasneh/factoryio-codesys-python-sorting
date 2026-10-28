@@ -1,0 +1,51 @@
+# Local software installers and installer caches
+/installations/
+*.exe
+*.msi
+
+# Private originals, recordings, and preparation files
+/.local/
+/screen recordings/
+# Original binary controller project awaits inspection in CODESYS
+/CODESYS files/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python environments, bytecode, and tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# CODESYS user settings, locks, and generated build/runtime data
+*.opt
+*.~u
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo
+*.precompilecache
+*.project.bak
+*.project~
+*.app
+*.crc
+
+# Full-resolution source recordings stay local; the demo GIF is included
+*.mp4
